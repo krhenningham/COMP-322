@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        
+        /* Table styling for exact double-border look */
+        table {
+            border-collapse: collapse;
+            border: 2px solid #000000;
+            margin-bottom: 0px;
+            background-color: #ffffff;
+        }
+        
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px 16px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        
+        /* Header row background and bold text */
+        th {
+            background-color: #f39c12;
+            color: #000000;
+            font-weight: bold;
+        }
+        
+        /* Specific column styling for 'op' to match pale yellow shade */
+        td:nth-child(2), th:nth-child(2) {
+            background-color: #fef5d1;
+        }
+
+        .nav-back {
+            margin-top: 30px;
+            display: inline-block;
+            text-decoration: none;
+            color: #0056b3;
+        }
+        
+        .nav-back:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript Calculator</h1>
+
+    <!-- External JavaScript File Execution -->
+    <script src="calculator.js"></script>
+
+    <!-- Navigation Link Back to Home -->
+    <p>
+        <a href="index.html" class="nav-back">&larr; Back to Home Page</a>
+    </p>
+
+</body>
+</html>
